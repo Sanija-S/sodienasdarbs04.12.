@@ -35,4 +35,4 @@ ievade_atslega=input("Ievadi atslegu, lai atrastu vērtību:")
 if ievade_atslega in ziema:
   print(f"{ievade_atslega}: {ziema[ievade_atslega]}")
 else:
-  print(f"tāda atslēga nav atrasta vārdnīcā")
+  print(f"Atslēga {ievade_atslega} tāda atslēga nav atrasta vārdnīcā")
