@@ -25,3 +25,14 @@ except json.JSONDecodeError:
 
   for key in ziema.keys():
     print(key)
+#izvadi visas vertibas 
+print(f"3.) Vārdnīcas vērtības:")
+for i in ziema.values():
+    print(i)
+#izvadit atslegu un parbaudit vai tada atslega pastav
+ievade_atslega=input("Ievadi atslegu, lai atrastu vērtību:")
+
+if ievade_atslega in ziema:
+  print(f"{ievade_atslega}: {ziema[ievade_atslega]}")
+else:
+  print(f"tāda atslēga nav atrasta vārdnīcā")
